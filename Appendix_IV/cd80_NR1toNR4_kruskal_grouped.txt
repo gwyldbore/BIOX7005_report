@@ -1,0 +1,30 @@
+Kruskal-Wallis Test Results
+========================================
+Category: NR4-like
+Statistic: 22.4609, p-value: 1.6222e-04, significant: True
+Dunn's Post-hoc Test Results:
+                      random  nonconservative  grantham distances  marginal weights   ConSurf
+random              1.000000         1.000000            0.025553          1.000000  1.000000
+nonconservative     1.000000         1.000000            0.000082          0.110783  0.022716
+grantham distances  0.025553         0.000082            1.000000          0.332573  1.000000
+marginal weights    1.000000         0.110783            0.332573          1.000000  1.000000
+ConSurf             1.000000         0.022716            1.000000          1.000000  1.000000
+
+----------------------------------------
+Category: NR4
+Statistic: 34.8073, p-value: 5.0886e-07, significant: True
+Dunn's Post-hoc Test Results:
+                      random  nonconservative  grantham distances  marginal weights   ConSurf
+random              1.000000         1.000000        7.318763e-02      4.489975e-02  1.000000
+nonconservative     1.000000         1.000000        4.158435e-03      8.131177e-01  1.000000
+grantham distances  0.073188         0.004158        1.000000e+00      7.076447e-08  0.072482
+marginal weights    0.044900         0.813118        7.076447e-08      1.000000e+00  0.032047
+ConSurf             1.000000         1.000000        7.248168e-02      3.204716e-02  1.000000
+
+----------------------------------------
+Category: NR1-like
+Statistic: 6.6070, p-value: 1.5817e-01, significant: False
+----------------------------------------
+Category: other
+Statistic: 4.5056, p-value: 3.4188e-01, significant: False
+----------------------------------------

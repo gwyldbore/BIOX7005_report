@@ -1,0 +1,62 @@
+Shapiro-Wilk Test Results
+========================================
+Category: NR1-like, Method: random
+W-Statistic: 0.8655, p-value: 4.1898e-05, normal: False
+----------------------------------------
+Category: NR1-like, Method: nonconservative
+W-Statistic: 0.7209, p-value: 2.0006e-08, normal: False
+----------------------------------------
+Category: NR1-like, Method: grantham distances
+W-Statistic: 0.7517, p-value: 7.9651e-08, normal: False
+----------------------------------------
+Category: NR1-like, Method: marginal weights
+W-Statistic: 0.8214, p-value: 2.8259e-06, normal: False
+----------------------------------------
+Category: NR1-like, Method: ConSurf
+W-Statistic: 0.8444, p-value: 1.0964e-05, normal: False
+----------------------------------------
+Category: NR1, Method: random
+W-Statistic: 0.9526, p-value: 4.3558e-02, normal: False
+----------------------------------------
+Category: NR1, Method: nonconservative
+W-Statistic: insufficient data, p-value: insufficient data, normal: False
+----------------------------------------
+Category: NR1, Method: grantham distances
+W-Statistic: 0.9616, p-value: 1.0387e-01, normal: True
+----------------------------------------
+Category: NR1, Method: marginal weights
+W-Statistic: 0.9658, p-value: 1.5573e-01, normal: True
+----------------------------------------
+Category: NR1, Method: ConSurf
+W-Statistic: 0.9670, p-value: 1.7425e-01, normal: True
+----------------------------------------
+Category: NR4-like, Method: random
+W-Statistic: 0.9541, p-value: 3.0896e-01, normal: True
+----------------------------------------
+Category: NR4-like, Method: nonconservative
+W-Statistic: 0.9664, p-value: 3.1942e-01, normal: True
+----------------------------------------
+Category: NR4-like, Method: grantham distances
+W-Statistic: 0.9682, p-value: 5.1314e-01, normal: True
+----------------------------------------
+Category: NR4-like, Method: marginal weights
+W-Statistic: 0.8744, p-value: 2.5211e-03, normal: False
+----------------------------------------
+Category: NR4-like, Method: ConSurf
+W-Statistic: 0.9068, p-value: 6.9857e-03, normal: False
+----------------------------------------
+Category: other, Method: random
+W-Statistic: 0.9618, p-value: 8.2747e-01, normal: True
+----------------------------------------
+Category: other, Method: nonconservative
+W-Statistic: 0.8723, p-value: 3.0695e-01, normal: True
+----------------------------------------
+Category: other, Method: grantham distances
+W-Statistic: 0.9327, p-value: 6.0079e-01, normal: True
+----------------------------------------
+Category: other, Method: marginal weights
+W-Statistic: 0.9214, p-value: 4.8033e-01, normal: True
+----------------------------------------
+Category: other, Method: ConSurf
+W-Statistic: insufficient data, p-value: insufficient data, normal: False
+----------------------------------------

@@ -1,0 +1,37 @@
+Kruskal-Wallis Test Results
+========================================
+Category: NR4-like
+Statistic: 23.4004, p-value: 1.0531e-04, significant: True
+Dunn's Post-hoc Test Results:
+                      random  nonconservative  grantham distances  marginal weights   ConSurf
+random              1.000000         1.000000            0.780343          0.272405  0.190211
+nonconservative     1.000000         1.000000            0.897657          0.247317  0.171806
+grantham distances  0.780343         0.897657            1.000000          0.001124  0.000465
+marginal weights    0.272405         0.247317            0.001124          1.000000  1.000000
+ConSurf             0.190211         0.171806            0.000465          1.000000  1.000000
+
+----------------------------------------
+Category: other
+Statistic: 9.1445, p-value: 5.7588e-02, significant: False
+----------------------------------------
+Category: NR1-like
+Statistic: 68.0375, p-value: 5.8904e-14, significant: True
+Dunn's Post-hoc Test Results:
+                      random  nonconservative  grantham distances  marginal weights   ConSurf
+random              1.000000     4.895675e-05        4.135052e-02      5.362871e-03  1.000000
+nonconservative     0.000049     1.000000e+00        1.468117e-12      1.000000e+00  0.029010
+grantham distances  0.041351     1.468117e-12        1.000000e+00      3.091728e-09  0.000089
+marginal weights    0.005363     1.000000e+00        3.091728e-09      1.000000e+00  0.613763
+ConSurf             1.000000     2.900985e-02        8.891105e-05      6.137627e-01  1.000000
+
+----------------------------------------
+Category: NR1
+Statistic: 119.5399, p-value: 9.6945e-26, significant: True
+Dunn's Post-hoc Test Results:
+                          random  grantham distances  marginal weights       ConSurf
+random              1.000000e+00        2.210823e-05      2.929614e-08  1.203938e-02
+grantham distances  2.210823e-05        1.000000e+00      1.211742e-24  9.109018e-14
+marginal weights    2.929614e-08        1.211742e-24      1.000000e+00  3.448361e-02
+ConSurf             1.203938e-02        9.109018e-14      3.448361e-02  1.000000e+00
+
+----------------------------------------

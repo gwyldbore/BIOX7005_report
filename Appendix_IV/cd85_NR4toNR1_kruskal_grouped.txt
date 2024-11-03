@@ -1,0 +1,37 @@
+Kruskal-Wallis Test Results
+========================================
+Category: NR1-like
+Statistic: 50.6847, p-value: 2.5979e-10, significant: True
+Dunn's Post-hoc Test Results:
+                      random  nonconservative  grantham distances  marginal weights   ConSurf
+random              1.000000     5.662200e-04        8.382187e-01      2.694309e-03  1.000000
+nonconservative     0.000566     1.000000e+00        6.989207e-08      1.000000e+00  0.000879
+grantham distances  0.838219     6.989207e-08        1.000000e+00      6.212878e-07  0.500225
+marginal weights    0.002694     1.000000e+00        6.212878e-07      1.000000e+00  0.004155
+ConSurf             1.000000     8.786540e-04        5.002250e-01      4.155046e-03  1.000000
+
+----------------------------------------
+Category: NR1
+Statistic: 118.0054, p-value: 2.0748e-25, significant: True
+Dunn's Post-hoc Test Results:
+                          random  grantham distances  marginal weights       ConSurf
+random              1.000000e+00        1.352009e-05      6.462167e-09  1.000000e+00
+grantham distances  1.352009e-05        1.000000e+00      1.541545e-26  7.135028e-06
+marginal weights    6.462167e-09        1.541545e-26      1.000000e+00  1.428885e-08
+ConSurf             1.000000e+00        7.135028e-06      1.428885e-08  1.000000e+00
+
+----------------------------------------
+Category: NR4-like
+Statistic: 14.7205, p-value: 5.3175e-03, significant: True
+Dunn's Post-hoc Test Results:
+                    random  nonconservative  grantham distances  marginal weights   ConSurf
+random                 1.0         1.000000            1.000000          1.000000  1.000000
+nonconservative        1.0         1.000000            1.000000          0.311068  0.096167
+grantham distances     1.0         1.000000            1.000000          0.066435  0.015079
+marginal weights       1.0         0.311068            0.066435          1.000000  1.000000
+ConSurf                1.0         0.096167            0.015079          1.000000  1.000000
+
+----------------------------------------
+Category: other
+Statistic: 6.1212, p-value: 1.9028e-01, significant: False
+----------------------------------------
